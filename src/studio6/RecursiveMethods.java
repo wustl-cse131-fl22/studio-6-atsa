@@ -61,7 +61,7 @@ public class RecursiveMethods {
 	 * @return an array with the same data as the input but it reverse order
 	 */
 	public static int[] toReversed(int[] array) {
-		return helper(array, 0, array.length-1);
+		return helper(array, 0, (array.length-1));
 		
 	}
 		
